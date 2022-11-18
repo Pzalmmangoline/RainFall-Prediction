@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Prediction Web Application</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style1.css')}}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+        </div>
+        <h2><a href="#" class="logo">Rain</a></h2>
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="/predict">Prediction</a>
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2>Save Rain<br></h2>
+          <p>"Rainfall information in the past helps farmers better manage their crops, leading to economic growth in the country. 
+            Prediction of precipitation is beneficial to prevent flooding that saves people's lives and property. 
+            Fluctuation in the timing of precipitation and its amount makes forecasting of rainfall a problem for meteorological scientists. 
+            To overcome these problems, a machine learning technology is used which is predictive analysis that is a branch of data mining which predicts the future probabilities and trends.
+            I used the CATBOOST model in deployment of this Web Application</p>
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Modern Rain Prediction</h2>
+      <p class="about-content" style="text-align: center;">Meteorologists use a process called numerical weather prediction to create forecasts by inputting current conditions — which they call the “nowcast” — into computer models. 
+        The more current and accurate information available to these models, the better the forecast will be. 
+        Ground radar, weather balloons, aircraft, satellites, ocean buoys and more can provide three-dimensional observations that a model can use. 
+        This allows meteorologists to simulate what the atmosphere is currently doing and predict what will happen in the next few days or, for some models, hours.
+        This proposed method uses Australian meteorological dataset to predict the rain fall.
+        Usually machine learning algorithms are classified into two major categories i.e. unsupervised learning and supervised learning. 
+        All of the clustering algorithms come under the supervised machine learning. 
+        Even though many models have developed, it is necessary for doing research using machine learning algorithms to get accurate predictions. 
+        The error free prediction provides better planning in the agriculture and other industries, Henceforth we have used the CatBoost model for faster and accurate prediction 
+      </p>
+    </section>
+
+
+  
+    <footer>
+      <p>
+        Developed By Omomuyi Boyo
+      </p> 
+    </footer>
+
+  </body>
+</html>
